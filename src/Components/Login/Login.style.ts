@@ -34,5 +34,18 @@ gap: 15px;
 `;
 
 export const Form = styled.form`
- background-color:red;
+ display: flex;
+ flex-direction: column;
+ gap:25px;
+ .input-container1{
+    display: flex;
+    flex-direction: column;
+ }
+ .input-container2{
+    display: flex;
+    flex-direction: column;
+ }
+ .input-container2 > input{
+   padding: 10px 0 8px 5px;
+ }
 `;
