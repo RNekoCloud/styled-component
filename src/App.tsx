@@ -1,3 +1,9 @@
+import { HelloWorld } from "./Components/styledComponent/HelloWorld";
+
 export const App = () => {
-   return <div>App</div>;
+   return (
+      <div>
+         <HelloWorld />
+      </div>
+   );
 };
