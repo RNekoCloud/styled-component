@@ -1,9 +1,10 @@
 import { Title } from "./Example1";
+import { Container } from "./Example1";
 
 export const HelloWorld = () => {
    return (
-      <div>
+      <Container>
          <Title>Hello World</Title>
-      </div>
+      </Container>
    );
 };
