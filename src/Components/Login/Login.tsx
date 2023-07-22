@@ -1,3 +1,9 @@
+import { Container } from "./Login.style";
+
 export const Login = () => {
-   return <div>Login</div>;
+   return (
+      <Container>
+         <h1>Halo DUnia</h1>
+      </Container>
+   );
 };
