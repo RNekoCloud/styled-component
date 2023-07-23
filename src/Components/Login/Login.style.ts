@@ -73,8 +73,9 @@ export const Form = styled.form`
       border-radius: 5px;
    }
    .input-container1 > input:focus {
-      outline: black;
-      border: 2px solid black;
+      outline: solid;
+      outline-width: 1px;
+      outline-color: black;
    }
 
    .input-container2 {
