@@ -77,9 +77,10 @@ export const Form = styled.form`
       border-radius: 2px;
    }
    button:hover {
-      background-color: rgb(243, 176, 53);
+      background-color: rgb(240, 165, 26);
    }
    button:active {
       transform: scale(0.96);
+      background-color: rgb(235, 181, 82);
    }
 `;
