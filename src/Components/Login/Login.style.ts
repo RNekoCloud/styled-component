@@ -43,6 +43,19 @@ export const Container = styled.div`
    }
 `;
 
+export const Hr = styled.div`
+   width: 40%;
+   text-align: center;
+   border-bottom: 1px solid #9ca3af;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+   span {
+      background: #fff;
+      padding: 0 10px;
+      color: #9ca3af;
+   }
+`;
+
 export const Form = styled.form`
    display: flex;
    flex-direction: column;

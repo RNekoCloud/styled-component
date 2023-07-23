@@ -9,7 +9,7 @@ export const Header = () => {
       <Wrapper>
          <Title>
             <img src={CvIcon} alt='Cv Zaman Now' />
-            <h2>CV Zaman Now</h2>
+            <h3>CV Zaman Now</h3>
          </Title>
          <Text1>
             <p>
