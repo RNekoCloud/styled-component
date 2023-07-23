@@ -23,6 +23,7 @@ export const Login = () => {
                <label htmlFor='pw'>Kata Sandi</label>
                <input type='password' id='pw' placeholder='*******' />
             </div>
+            <button>Daftar</button>
          </Form>
       </Container>
    );
