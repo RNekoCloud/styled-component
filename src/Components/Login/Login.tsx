@@ -1,11 +1,13 @@
 import { MainContainer } from "./Login.style";
 import { Container } from "./Login.style";
 import { Form } from "./Login.style";
+import { Header } from "./Header";
 import Google from "../../../public/img/google.svg";
 
 export const Login = () => {
    return (
       <MainContainer>
+         <Header />
          <Container>
             <div className='items-container1'>
                <h1>Daftar</h1>

@@ -3,14 +3,17 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
    display: flex;
    height: 100vh;
-   justify-content: center;
    align-items: center;
+   justify-content: space-between;
 `;
 
 export const Container = styled.div`
    display: flex;
    flex-direction: column;
+   width: 50%;
+   height: 100vh;
    align-items: start;
+   justify-content: center;
    gap: 15px;
    .items-container1 {
       display: flex;
