@@ -89,6 +89,11 @@ export const Form = styled.form`
       padding: 10px 0 8px 5px;
       border-radius: 5px;
    }
+   .input-container2 > input:focus {
+      outline: solid;
+      outline-width: 1px;
+      outline-color: black;
+   }
    button {
       width: 7em;
       padding: 10px 0;
