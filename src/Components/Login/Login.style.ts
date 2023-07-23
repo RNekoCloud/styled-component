@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
    display: flex;
    height: 100vh;
+   font-family: "Poppins";
    align-items: center;
    justify-content: space-between;
 `;
@@ -12,12 +13,12 @@ export const Container = styled.div`
    flex-direction: column;
    width: 50%;
    height: 100vh;
-   align-items: start;
+   align-items: center;
    justify-content: center;
    gap: 15px;
    .items-container1 {
       display: flex;
-      align-items: start;
+      width: 40%;
       flex-direction: column;
       gap: 15px;
       h1 {
@@ -38,7 +39,7 @@ export const Container = styled.div`
    }
 
    .items-container2 {
-      background-color: white;
+      width: 40%;
    }
 `;
 

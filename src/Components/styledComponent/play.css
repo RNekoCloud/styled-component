@@ -1,4 +1,6 @@
 * {
    font-family: "Courier New", Courier, monospace;
    background-color: rgb(235, 181, 82);
+   text-align: right;
+   justify-content: right;
 }
