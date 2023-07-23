@@ -76,4 +76,7 @@ export const Form = styled.form`
       background-color: orange;
       border-radius: 2px;
    }
+   button:hover {
+      background-color: rgb(243, 176, 53);
+   }
 `;
