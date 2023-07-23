@@ -79,4 +79,7 @@ export const Form = styled.form`
    button:hover {
       background-color: rgb(243, 176, 53);
    }
+   button:active {
+      transform: scale(0.96);
+   }
 `;
