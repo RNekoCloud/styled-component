@@ -41,11 +41,18 @@ export const Form = styled.form`
     display: flex;
     flex-direction: column;
  }
+.input-container1 > input{
+    border: 2px solid black;
+    padding: 10px 5px
+ }
+
  .input-container2{
     display: flex;
     flex-direction: column;
  }
  .input-container2 > input{
+   border: 2px solid black;
    padding: 10px 0 8px 5px;
+   border-radius: 5px;
  }
 `;
