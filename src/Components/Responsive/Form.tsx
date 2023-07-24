@@ -1,4 +1,5 @@
 import { Wrapper } from "./Index.style";
+import { Forgot } from "./Index.style";
 import MobileImage from "../../../public/img/Login-Art(mobile).svg";
 
 export const Form = () => {
@@ -27,9 +28,9 @@ export const Form = () => {
                   placeholder='At least 8 characters'
                />
             </div>
-            <div>
+            <Forgot>
                <a href='/'>Forgot Password?</a>
-            </div>
+            </Forgot>
          </form>
       </Wrapper>
    );

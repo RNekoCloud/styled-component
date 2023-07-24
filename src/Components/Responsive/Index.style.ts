@@ -59,3 +59,24 @@ export const Wrapper = styled.div`
       font-family: Roboto;
    }
 `;
+
+export const Forgot = styled.div`
+   display: flex;
+   justify-content: end;
+   a {
+      font-size: 1em;
+      font-family: Roboto, "sans";
+      color: #1e4ae9;
+      text-decoration: none;
+   }
+   a:hover {
+      text-decoration: underline;
+   }
+`;
+
+export const SignIn = styled.div`
+   button {
+      display: flex;
+      justify-content: center;
+   }
+`;
