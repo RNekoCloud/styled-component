@@ -27,6 +27,9 @@ export const Form = () => {
                   placeholder='At least 8 characters'
                />
             </div>
+            <div>
+               <a href='/'>Forgot Password?</a>
+            </div>
          </form>
       </Wrapper>
    );
