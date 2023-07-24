@@ -19,7 +19,14 @@ export const Form = () => {
                <label htmlFor='email'>Email</label>
                <input type='email' id='email' placeholder='Example@gmail.com' />
             </div>
-            <div></div>
+            <div className='input-password'>
+               <label htmlFor='password'>Password</label>
+               <input
+                  type='password'
+                  id='password'
+                  placeholder='At least 8 characters'
+               />
+            </div>
          </form>
       </Wrapper>
    );
