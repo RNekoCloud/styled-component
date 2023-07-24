@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
       width: 22em;
    }
    form > .input-email > label {
-      font-family: Roboto, "sns";
+      font-family: Roboto, "sans";
    }
    form > .input-email > input {
       padding: 1em;
