@@ -61,6 +61,11 @@ export const Wrapper = styled.div`
       font-weight: 500;
       font-family: Roboto;
    }
+   form > .input-password > input:focus {
+      outline: solid;
+      outline-width: 2px;
+      outline-color: black;
+   }
 `;
 
 export const Forgot = styled.div`
