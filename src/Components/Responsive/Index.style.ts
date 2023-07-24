@@ -101,7 +101,7 @@ export const SignIn = styled.div`
 `;
 
 export const HrText = styled.div`
-   padding: 1em 0 0 0;
+   padding: 2em 0 0 0;
    width: 20rem;
    text-align: center;
    border-bottom: 1px solid #cfdfe2;
@@ -117,4 +117,32 @@ export const HrText = styled.div`
 export const Login = styled.div`
    display: flex;
    justify-content: center;
+   gap: 10px;
+   padding: 5% 2% 0 2%;
+   .button1 {
+      border: none;
+      background-color: #d1edf3;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      justify-content: center;
+      width: 10rem;
+      font-family: Roboto, "sans";
+      border-radius: 0.75em;
+      padding: 0.6em 2em;
+      font-size: 1em;
+   }
+   .button2 {
+      border: none;
+      background-color: #d1edf3;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      justify-content: center;
+      width: 10rem;
+      font-family: Roboto, "sans";
+      border-radius: 0.75em;
+      padding: 0.6em 2em;
+      font-size: 1em;
+   }
 `;
