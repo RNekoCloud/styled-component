@@ -76,7 +76,35 @@ export const Forgot = styled.div`
 
 export const SignIn = styled.div`
    button {
+      background-color: #162d3a;
+      color: #ffffff;
+      font-size: 1em;
+      border: none;
+      border-radius: 0.75em;
+      padding: 1em 0;
+      width: 100%;
       display: flex;
       justify-content: center;
+   }
+   button:hover {
+      background-color: #304d5f;
+   }
+   button:active {
+      background-color: #41657c;
+      transform: scale(0.96);
+   }
+`;
+
+export const HrText = styled.div`
+   padding: 1em 0 0 0;
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid #cfdfe2;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+   span {
+      background: #fff;
+      padding: 0 13px;
+      color: #294957;
    }
 `;

@@ -1,5 +1,7 @@
 import { Wrapper } from "./Index.style";
 import { Forgot } from "./Index.style";
+import { SignIn } from "./Index.style";
+import { HrText } from "./Index.style";
 import MobileImage from "../../../public/img/Login-Art(mobile).svg";
 
 export const Form = () => {
@@ -31,6 +33,12 @@ export const Form = () => {
             <Forgot>
                <a href='/'>Forgot Password?</a>
             </Forgot>
+            <SignIn>
+               <button>Sign in</button>
+            </SignIn>
+            <HrText>
+               <span>Or sign in with</span>
+            </HrText>
          </form>
       </Wrapper>
    );
