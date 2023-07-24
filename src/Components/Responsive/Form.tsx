@@ -14,6 +14,13 @@ export const Form = () => {
                managing your projects.
             </p>
          </div>
+         <form>
+            <div className='input-email'>
+               <label htmlFor='email'>Email</label>
+               <input type='email' id='email' placeholder='Example@gmail.com' />
+            </div>
+            <div></div>
+         </form>
       </Wrapper>
    );
 };
