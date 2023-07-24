@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
    display: flex;
    align-items: center;
    justify-content: center;
-   margin: 5% 4%;
+   margin: 5% 4% 0 4%;
    flex-direction: column;
    .greeting-container {
       padding: 5% 4%;
@@ -177,5 +177,10 @@ export const SignUp = styled.div`
 
 export const Footer = styled.div`
    display: flex;
+   padding: 10% 0 0 0;
    justify-content: center;
+   p {
+      color: #959cb6;
+      font-size: 0.92rem;
+   }
 `;
