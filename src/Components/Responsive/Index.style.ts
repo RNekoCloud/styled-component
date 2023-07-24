@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
    flex-direction: column;
    .greeting-container {
       padding: 5% 4%;
+      font-family: Roboto, "sans";
       width: 21rem;
       text-align: justify;
    }
@@ -174,6 +175,7 @@ export const Login = styled.div`
 export const SignUp = styled.div`
    display: flex;
    padding: 4% 0;
+   font-family: Roboto, "sans";
    justify-content: center;
    gap: 3px;
    a {
@@ -190,6 +192,7 @@ export const Footer = styled.div`
    padding: 10% 0 0 0;
    justify-content: center;
    p {
+      font-family: Roboto, "sans";
       color: #959cb6;
       font-size: 0.92rem;
    }
