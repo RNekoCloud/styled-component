@@ -163,5 +163,14 @@ export const Login = styled.div`
 
 export const SignUp = styled.div`
    display: flex;
+   padding: 4% 0;
    justify-content: center;
+   gap: 3px;
+   a {
+      text-decoration: none;
+      color: #1e4ae9;
+   }
+   a:hover {
+      text-decoration: underline;
+   }
 `;

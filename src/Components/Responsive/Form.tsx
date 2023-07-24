@@ -53,6 +53,10 @@ export const Form = () => {
                   <span>Facebook</span>
                </button>
             </Login>
+            <SignUp>
+               <span>Don't you have an account? </span>
+               <a href='/'>Sign up</a>
+            </SignUp>
          </form>
       </Wrapper>
    );
