@@ -4,6 +4,7 @@ import { SignIn } from "./Index.style";
 import { HrText } from "./Index.style";
 import { Login } from "./Index.style";
 import { SignUp } from "./Index.style";
+import { Footer } from "./Index.style";
 import MobileImage from "../../../public/img/Login-Art(mobile).svg";
 import Google from "../../../public/img/Google.svg";
 import Facebook from "../../../public/img/Facebook.svg";
@@ -58,6 +59,9 @@ export const Form = () => {
                <a href='/'>Sign up</a>
             </SignUp>
          </form>
+         <Footer>
+            <p>© 2023 ALL RIGHTS RESERVED</p>
+         </Footer>
       </Wrapper>
    );
 };

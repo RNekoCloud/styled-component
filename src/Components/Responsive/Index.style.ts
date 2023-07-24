@@ -174,3 +174,8 @@ export const SignUp = styled.div`
       text-decoration: underline;
    }
 `;
+
+export const Footer = styled.div`
+   display: flex;
+   justify-content: center;
+`;
