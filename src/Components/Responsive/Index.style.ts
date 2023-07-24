@@ -132,6 +132,13 @@ export const Login = styled.div`
       padding: 0.6em 2em;
       font-size: 1em;
    }
+   .button1:hover {
+      background-color: #cfe5e9;
+   }
+   .button1:active {
+      background-color: #e2f2f5;
+      transform: scale(0.96);
+   }
    .button2 {
       border: none;
       background-color: #d1edf3;
@@ -144,5 +151,12 @@ export const Login = styled.div`
       border-radius: 0.75em;
       padding: 0.6em 2em;
       font-size: 1em;
+   }
+   .button2:hover {
+      background-color: #cfe5e9;
+   }
+   .button2:active {
+      background-color: #e2f2f5;
+      transform: scale(0.96);
    }
 `;
