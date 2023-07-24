@@ -4,10 +4,12 @@ export const Wrapper = styled.div`
    display: flex;
    align-items: center;
    justify-content: center;
-   padding: 5% 0%;
+   margin: 5% 4%;
    flex-direction: column;
    .greeting-container {
-      padding: 0 3%;
+      padding: 5% 4%;
+      width: 21rem;
+      text-align: justify;
    }
    form {
       display: flex;
@@ -15,18 +17,18 @@ export const Wrapper = styled.div`
       gap: 15px;
    }
    form > .input-email {
+      padding: 0 2%;
       align-items: start;
       display: flex;
       flex-direction: column;
       gap: 5px;
-      width: 22em;
    }
    form > .input-email > label {
       font-family: Roboto, "sans";
    }
    form > .input-email > input {
       padding: 1em;
-      width: 24em;
+      width: 19rem;
       border-radius: 0.5em;
       border: 1px solid #d4d7e3;
       background: #f3f7fb;
@@ -38,6 +40,7 @@ export const Wrapper = styled.div`
    }
    form > .input-password {
       align-items: start;
+      padding: 0 2%;
       display: flex;
       flex-direction: column;
       gap: 5px;
@@ -48,7 +51,7 @@ export const Wrapper = styled.div`
    }
    form > .input-password > input {
       padding: 1em;
-      width: 24em;
+      width: 19rem;
       border-radius: 0.5em;
       border: 1px solid #d4d7e3;
       background: #f3f7fb;
@@ -63,6 +66,7 @@ export const Wrapper = styled.div`
 export const Forgot = styled.div`
    display: flex;
    justify-content: end;
+   padding: 0 3%;
    a {
       font-size: 1em;
       font-family: Roboto, "sans";
@@ -75,6 +79,7 @@ export const Forgot = styled.div`
 `;
 
 export const SignIn = styled.div`
+   padding: 0 2%;
    button {
       background-color: #162d3a;
       color: #ffffff;
@@ -97,11 +102,11 @@ export const SignIn = styled.div`
 
 export const HrText = styled.div`
    padding: 1em 0 0 0;
-   width: 100%;
+   width: 20rem;
    text-align: center;
    border-bottom: 1px solid #cfdfe2;
    line-height: 0.1em;
-   margin: 10px 0 20px;
+   margin: 0 4%;
    span {
       background: #fff;
       padding: 0 13px;
