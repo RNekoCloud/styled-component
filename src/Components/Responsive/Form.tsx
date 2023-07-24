@@ -3,6 +3,7 @@ import { Forgot } from "./Index.style";
 import { SignIn } from "./Index.style";
 import { HrText } from "./Index.style";
 import { Login } from "./Index.style";
+import { SignUp } from "./Index.style";
 import MobileImage from "../../../public/img/Login-Art(mobile).svg";
 import Google from "../../../public/img/Google.svg";
 import Facebook from "../../../public/img/Facebook.svg";

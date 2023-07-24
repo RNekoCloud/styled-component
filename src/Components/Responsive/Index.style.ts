@@ -160,3 +160,8 @@ export const Login = styled.div`
       transform: scale(0.96);
    }
 `;
+
+export const SignUp = styled.div`
+   display: flex;
+   justify-content: center;
+`;
