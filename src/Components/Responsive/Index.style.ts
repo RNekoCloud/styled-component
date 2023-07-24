@@ -113,3 +113,8 @@ export const HrText = styled.div`
       color: #294957;
    }
 `;
+
+export const Login = styled.div`
+   display: flex;
+   justify-content: center;
+`;

@@ -2,7 +2,10 @@ import { Wrapper } from "./Index.style";
 import { Forgot } from "./Index.style";
 import { SignIn } from "./Index.style";
 import { HrText } from "./Index.style";
+import { Login } from "./Index.style";
 import MobileImage from "../../../public/img/Login-Art(mobile).svg";
+import Google from "../../../public/img/Google.svg";
+import Facebook from "../../../public/img/Facebook.svg";
 
 export const Form = () => {
    return (
@@ -39,6 +42,16 @@ export const Form = () => {
             <HrText>
                <span>Or sign in with</span>
             </HrText>
+            <Login>
+               <button className='button1'>
+                  <img src={Google} alt='' />
+                  <span>Google</span>
+               </button>
+               <button className='button2'>
+                  <img src={Facebook} alt='' />
+                  <span>Facebook</span>
+               </button>
+            </Login>
          </form>
       </Wrapper>
    );
