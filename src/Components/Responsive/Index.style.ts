@@ -38,6 +38,11 @@ export const Wrapper = styled.div`
       font-weight: 500;
       font-family: Roboto;
    }
+   form > .input-email > input:focus {
+      outline: solid;
+      outline-width: 2px;
+      outline-color: black;
+   }
    form > .input-password {
       align-items: start;
       padding: 0 2%;
