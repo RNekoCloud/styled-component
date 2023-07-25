@@ -1,23 +1,32 @@
 // src/components/TodoList.tsx
 
+//import React,  useState, dan useEffect
 import React, { useState, useEffect } from "react";
+//import konfigurasi local storage
 import {
-   setItemToLocalStorage,
-   getItemFromLocalStorage,
+   ToLocalStorage,
+   GetFromLocalStorage,
 } from "../utils/localStorage.todo";
+
+//buat tipe data alternatif dengan interface
 interface TodoItem {
+   //id dengan tipe number
    id: number;
+   //text dengan tipe string
    text: string;
+   //isDone dengan tipe boolean
    isDone: boolean;
 }
 
 const TodoList: React.FC = () => {
+   //buat state untuk menyimpan todoLis
    const [todos, setTodos] = useState<TodoItem[]>([]);
+   //buat state untuk menyimpan tugas baru
    const [newTodo, setNewTodo] = useState<string>("");
 
    useEffect(() => {
       // Ketika komponen dipasang, coba ambil data to-do dari local storage
-      const storedTodos = getItemFromLocalStorage("todos");
+      const storedTodos = GetFromLocalStorage("todos");
       if (storedTodos !== null) {
          setTodos(storedTodos);
       }
@@ -35,7 +44,7 @@ const TodoList: React.FC = () => {
       };
 
       setTodos([...todos, newTodoItem]);
-      setItemToLocalStorage("todos", [...todos, newTodoItem]);
+      ToLocalStorage("todos", [...todos, newTodoItem]);
 
       // Reset input setelah menambahkan to-do
       setNewTodo("");
@@ -44,7 +53,7 @@ const TodoList: React.FC = () => {
    const handleRemoveTodo = (id: number) => {
       const updatedTodos = todos.filter((todo) => todo.id !== id);
       setTodos(updatedTodos);
-      setItemToLocalStorage("todos", updatedTodos);
+      ToLocalStorage("todos", updatedTodos);
    };
 
    const handleToggleTodo = (id: number) => {
@@ -52,7 +61,7 @@ const TodoList: React.FC = () => {
          todo.id === id ? { ...todo, isDone: !todo.isDone } : todo
       );
       setTodos(updatedTodos);
-      setItemToLocalStorage("todos", updatedTodos);
+      ToLocalStorage("todos", updatedTodos);
    };
 
    return (
