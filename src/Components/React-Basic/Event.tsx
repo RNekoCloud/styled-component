@@ -2,16 +2,21 @@ import { Buttons } from "./Buttons";
 import { useState } from "react";
 
 export const Event = () => {
-   const [value, setValue] = useState("Ini kalimat pertama");
+   const [value, setValue] = useState(0);
 
    const AddValue = () => {
-      setValue("Yeyy, Kamu sudah mengeklik ini");
+      setValue(value + 1);
+   };
+
+   const MinValue = () => {
+      setValue(value - 1);
    };
 
    return (
       <>
          <p>{value}</p>
-         <Buttons Click={AddValue} label='Click Me!' />
+         <Buttons Click={AddValue} label='Tambah' />
+         <Buttons Click={MinValue} label='Kurangi' />
       </>
    );
 };
