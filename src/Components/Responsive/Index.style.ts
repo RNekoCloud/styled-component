@@ -6,45 +6,45 @@ export const Wrapper = styled.div`
    justify-content: center;
    margin: 5% 4% 0 4%;
    flex-direction: column;
-   .greeting-container {
+   div > .greeting-container {
       padding: 5% 4%;
       font-family: Roboto, "sans";
       width: 21rem;
       text-align: justify;
    }
-   form {
+   div > form {
       display: flex;
       flex-direction: column;
       gap: 15px;
    }
-   form > .input-email {
+   div > form > .input-email {
       padding: 0 2%;
       align-items: start;
       display: flex;
       flex-direction: column;
       gap: 5px;
    }
-   form > .input-email > label {
+   div > form > .input-email > label {
       font-family: Roboto, "sans";
    }
-   form > .input-email > input {
+   div > form > .input-email > input {
       padding: 1em;
       width: 19rem;
       border-radius: 0.5em;
       border: 1px solid #d4d7e3;
       background: #f3f7fb;
    }
-   form > .input-email > input::placeholder {
+   div > form > .input-email > input::placeholder {
       color: #16181b;
       font-weight: 500;
       font-family: Roboto;
    }
-   form > .input-email > input:focus {
+   div > form > .input-email > input:focus {
       outline: solid;
       outline-width: 2px;
       outline-color: black;
    }
-   form > .input-password {
+   div > form > .input-password {
       align-items: start;
       padding: 0 2%;
       display: flex;
@@ -52,22 +52,22 @@ export const Wrapper = styled.div`
       gap: 5px;
       width: 22em;
    }
-   form > .input-password > label {
+   div > form > .input-password > label {
       font-family: Roboto, "sans";
    }
-   form > .input-password > input {
+   div > form > .input-password > input {
       padding: 1em;
       width: 19rem;
       border-radius: 0.5em;
       border: 1px solid #d4d7e3;
       background: #f3f7fb;
    }
-   form > .input-password > input::placeholder {
+   div > form > .input-password > input::placeholder {
       color: #16181b;
       font-weight: 500;
       font-family: Roboto;
    }
-   form > .input-password > input:focus {
+   div > form > .input-password > input:focus {
       outline: solid;
       outline-width: 2px;
       outline-color: black;
@@ -196,4 +196,9 @@ export const Footer = styled.div`
       color: #959cb6;
       font-size: 0.92rem;
    }
+`;
+
+export const ImageDekstop = styled.div`
+   display: flex;
+   justify-content: center;
 `;
