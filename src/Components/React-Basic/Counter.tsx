@@ -12,7 +12,9 @@ export const Counter = () => {
    useEffect(() => {
       const GetValue = GetFromLocaleStorage("nilai");
 
-      setValue(GetValue);
+      if (GetValue !== null) {
+         setValue(GetValue);
+      }
    });
 
    //fungsi untuk menambah angka dan menyimpannya di local storage
