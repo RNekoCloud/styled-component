@@ -7,6 +7,7 @@ import { SignUp } from "./Index.style";
 import { Footer } from "./Index.style";
 import { ImageDekstop } from "./Index.style";
 import MobileImage from "../../../public/img/Login-Art(mobile).svg";
+import MobileDekstop from "../../../public/img/Login-Art(dekstop).svg";
 import Google from "../../../public/img/Google.svg";
 import Facebook from "../../../public/img/Facebook.svg";
 
@@ -69,6 +70,9 @@ export const Form = () => {
                <p>© 2023 ALL RIGHTS RESERVED</p>
             </Footer>
          </div>
+         <ImageDekstop>
+            <img src={MobileDekstop} alt='' />
+         </ImageDekstop>
       </Wrapper>
    );
 };

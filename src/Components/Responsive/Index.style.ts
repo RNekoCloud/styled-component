@@ -3,9 +3,15 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
    display: flex;
    align-items: center;
+   gap: 10em;
    justify-content: center;
    margin: 5% 4% 0 4%;
-   flex-direction: column;
+   flex-direction: row;
+   div > .img-container > img {
+      @media screen and (min-width: 1200px) {
+         display: none;
+      }
+   }
    div > .greeting-container {
       padding: 5% 4%;
       font-family: Roboto, "sans";
@@ -199,6 +205,15 @@ export const Footer = styled.div`
 `;
 
 export const ImageDekstop = styled.div`
-   display: flex;
+   display: none;
+   height: 50rem;
+   padding: 2rem;
    justify-content: center;
+   @media screen and (min-width: 1200px) {
+      display: flex;
+   }
+   img {
+      width: 100%;
+      height: 100%;
+   }
 `;
