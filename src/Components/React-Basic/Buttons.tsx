@@ -1,8 +1,8 @@
 interface ButtonProps {
-   label: string;
+   text: string;
    Click: () => void;
 }
 
-export const Buttons = ({ label, Click }: ButtonProps) => {
-   return <button onClick={Click}>{label}</button>;
+export const Buttons = ({ text, Click }: ButtonProps) => {
+   return <button onClick={Click}>{text}</button>;
 };

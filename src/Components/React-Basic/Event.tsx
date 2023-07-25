@@ -15,8 +15,8 @@ export const Event = () => {
    return (
       <>
          <p>{value}</p>
-         <Buttons Click={AddValue} label='Tambah' />
-         <Buttons Click={MinValue} label='Kurangi' />
+         <Buttons Click={AddValue} text='Tambah' />
+         <Buttons Click={MinValue} text='Kurangi' />
       </>
    );
 };
