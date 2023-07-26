@@ -36,7 +36,6 @@ const TodoList: React.FC = () => {
       if (newTodo.trim() === "") {
          return;
       }
-
       const newTodoItem: TodoItem = {
          id: Date.now(),
          text: newTodo,
