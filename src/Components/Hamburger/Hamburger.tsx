@@ -4,12 +4,14 @@ export const Hamburger = () => {
    return (
       <div>
          <Wrapper>
-            <input type='checkbox' id='hamburger' />
-            <label htmlFor='hamburger' className='hamburger'>
-               <span className='line'></span>
-               <span className='line'></span>
-               <span className='line'></span>
-            </label>
+            <div>
+               <input type='checkbox' id='hamburger' />
+               <label htmlFor='hamburger' className='hamburger'>
+                  <span className='line'></span>
+                  <span className='line'></span>
+                  <span className='line'></span>
+               </label>
+            </div>
          </Wrapper>
       </div>
    );
