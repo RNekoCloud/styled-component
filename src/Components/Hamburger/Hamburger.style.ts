@@ -10,17 +10,23 @@ export const Wrapper = styled.div`
    #hamburger {
       display: none;
    }
+   div {
+      background-color: blue;
+   }
+
    div > .hamburger {
       display: block;
       width: 3rem;
       height: 60px;
       position: relative;
       cursor: pointer;
+      padding: 0 5px;
+      background-color: red;
    }
    div > .hamburger > .line {
       position: absolute;
       height: 6px;
-      width: 100%;
+      width: 80%;
       background-color: #000;
       transition: 0.5s;
    }

@@ -1,6 +1,10 @@
 import { Wrapper } from "./Hamburger.style";
 
-export const Hamburger = () => {
+interface EventProps {
+   isOpen: boolean;
+}
+
+export const Hamburger = ({ isOpen }: EventProps) => {
    return (
       <div>
          <Wrapper>
