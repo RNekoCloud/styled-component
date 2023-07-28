@@ -7,11 +7,18 @@ export const Wrapper = styled.div`
    padding: 1rem;
    width: 100vh;
    height: 1rem;
-   #hamburger {
+   ul {
       display: none;
+   }
+   .show {
+      display: block;
    }
    div {
       background-color: blue;
+   }
+
+   div > #hamburger {
+      display: none;
    }
 
    div > .hamburger {

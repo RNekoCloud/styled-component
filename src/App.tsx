@@ -7,7 +7,7 @@ import { Hamburger } from "./Components/Hamburger/Hamburger";
 export const App = () => {
    return (
       <div>
-         <Hamburger />
+         <Hamburger isOpen={true} />
       </div>
    );
 };
