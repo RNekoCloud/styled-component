@@ -17,13 +17,13 @@ export const Navbar = () => {
    const onDrawerClick = () => {
       const nav = document.querySelector(`.${Menu.styledComponentId}`);
 
-      if (drawer) {
-         nav.classList.remove("show");
-         setDrawer(false);
-      } else {
-         nav.classList.add("show");
-         setDrawer(true);
-      }
+      // if (drawer) {
+      //    nav.classList.remove("show");
+      //    setDrawer(false);
+      // } else {
+      //    nav.classList.add("show");
+      //    setDrawer(true);
+      // }
    };
 
    return (
