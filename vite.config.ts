@@ -12,9 +12,6 @@ export default defineConfig({
          fileName: "my-lib",
       },
       rollupOptions: {
-         input: {
-            main: resolve(__dirname, "index.htl"),
-         },
          // make sure to externalize deps that shouldn't be bundled
          // into your library
          external: ["vue"],
