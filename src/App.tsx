@@ -4,7 +4,12 @@
 // import { Counter } from "./Components/React-Basic/Counter";
 //import { SimpleNav } from "./Components/VerySimple/SimpleNav";
 //import { UseFaq } from "./Components/FaqAccordion/UseFaq";
+import { ShowUser } from "./Components/renameUsername/ShowUser";
 
 export const App = () => {
-   return <div>{/* <UseFaq /> */}</div>;
+   return (
+      <div>
+         <ShowUser />
+      </div>
+   );
 };
