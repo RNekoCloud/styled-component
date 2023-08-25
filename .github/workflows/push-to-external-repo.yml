@@ -16,6 +16,6 @@ jobs:
         with:
           deploy_key: ${{ secrets.SSH_DEPLOY_KEY }}
           publish_dir: .
-          external_repository: Nurrohmann/test
+          external_repository: <Nurrohmann>/<test>
           publish_branch: main
           allow_empty_commit: true
